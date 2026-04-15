@@ -1,0 +1,42 @@
+.rate-card {
+  width: 0 auto;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 1rem;
+
+  .rate-card-header {
+    display: flex;
+    justify-content: space-between;
+
+    .text-container {
+      line-height: 25%;
+
+      .rate-card-title {
+        font-size: 16px;
+        display: flex;
+        justify-content: flex-start
+      }
+
+      .rate-card-subtitle {
+        font-size: 12px;
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
+
+    .year-container {
+      display: flex;
+      border-radius: 8px;
+      border: 1px solid gray;
+
+      .year {
+        font-size: 12px;
+        color: darkblue;
+        background-color: lightblue;
+        display: flex;
+        padding: 2px;
+
+      }
+    }
+  }
+}
