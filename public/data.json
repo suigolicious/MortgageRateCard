@@ -1,0 +1,25 @@
+{
+  "lenders": [
+    {
+      "lender": "Lender 1",
+      "lenderType": "Bank",
+      "rate": "3.5%",
+      "apr": "3.6%",
+      "term": "30 Year Fixed"
+    },
+    {
+      "lender": "Lender 2",
+      "lenderType": "Credit Union",
+      "rate": "3.4%",
+      "apr": "3.5%",
+      "term": "15 Year Fixed"
+    },
+    {
+      "lender": "Lender 3",
+      "lenderType": "Mortgage Broker",
+      "rate": "3.6%",
+      "apr": "3.7%",
+      "term": "30 Year Fixed"
+    }
+  ]
+}

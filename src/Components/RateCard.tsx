@@ -1,4 +1,5 @@
 import './RateCard.scss'
+import Table from './Table/Table'
 
 export default function RateCard() {
   return (
@@ -12,6 +13,7 @@ export default function RateCard() {
           <div className='year'>30 Year Fixed</div>
         </div>
       </div>
+      <Table />
     </div>
   )
 }
