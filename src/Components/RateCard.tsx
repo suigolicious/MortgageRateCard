@@ -10,7 +10,7 @@ export default function RateCard() {
           <div className='rate-card-subtitle'>Updated April 12, 2026 • National averages</div>
         </div>
         <div className='year-container'>
-          <div className='year'>30 Year Fixed</div>
+          <div className='year'>30-yr fixed</div>
         </div>
       </div>
       <Table />

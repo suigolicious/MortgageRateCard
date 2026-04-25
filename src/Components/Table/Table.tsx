@@ -1,3 +1,4 @@
+import './Table.scss'
 import Table from '@mui/material/Table';
 import TableItem from './TableItem/TableItem'
 import TableCell from '@mui/material/TableCell';
@@ -17,20 +18,22 @@ export default function BasicTable() {
   }, [])
 
   return (
-    <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
-        <TableHead>
-          <TableRow>
-            <TableCell>Lender</TableCell>
-            <TableCell align="right">Rate</TableCell>
-            <TableCell align="right">APR</TableCell>
-            <TableCell align="right">Term</TableCell>
-          </TableRow>
-        </TableHead>
-        {lenders.map((lender, count) => (
-          <TableItem key={count} {...lender} />
-        ))}
-      </Table>
-    </TableContainer>
+    <div className='table-container'>
+      <TableContainer component={Paper}>
+        <Table sx={{ minWidth: 650 }} aria-label="simple table" size="small">
+          <TableHead className='table-head'>
+            <TableRow>
+              <TableCell>Lender</TableCell>
+              <TableCell align="right">Rate</TableCell>
+              <TableCell align="right">APR</TableCell>
+              <TableCell align="right">Term</TableCell>
+            </TableRow>
+          </TableHead>
+          {lenders.map((lender, count) => (
+            <TableItem key={count} {...lender} />
+          ))}
+        </Table>
+      </TableContainer>
+    </div>
   );
 }

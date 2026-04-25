@@ -1,5 +1,5 @@
 .rate-card {
-  width: 0 auto;
+  margin: 3rem;
   border: 1px solid lightgray;
   border-radius: 8px;
 
@@ -12,13 +12,13 @@
       line-height: 25%;
 
       .rate-card-title {
-        font-size: 16px;
+        font-size: 14px;
         display: flex;
         justify-content: flex-start
       }
 
       .rate-card-subtitle {
-        font-size: 12px;
+        font-size: 10px;
         display: flex;
         justify-content: flex-start;
       }
@@ -27,12 +27,16 @@
     .year-container {
       display: flex;
       border-radius: 8px;
-      border: 1px solid lightgray;
+      font-size: 10px;
+      color: #325585;
+      background-color: #E8F1FA;
+      border: 1px solid #D2E2F6;
+      padding: 0 4px;
+      height: 21px;
+      align-items: center;
+      font-weight: 600;
 
       .year {
-        font-size: 12px;
-        color: darkblue;
-        background-color: lightblue;
         display: flex;
         padding: 2px;
 

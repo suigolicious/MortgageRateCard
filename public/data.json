@@ -1,25 +1,25 @@
 {
   "lenders": [
     {
-      "lender": "Lender 1",
-      "lenderType": "Bank",
+      "lender": "Chase",
+      "lenderType": "Featured",
       "rate": "3.5%",
       "apr": "3.6%",
-      "term": "30 Year Fixed"
+      "term": "30 yr"
     },
     {
-      "lender": "Lender 2",
-      "lenderType": "Credit Union",
+      "lender": "Wells Fargo",
+      "lenderType": "National Bank",
       "rate": "3.4%",
       "apr": "3.5%",
-      "term": "15 Year Fixed"
+      "term": "15 yr"
     },
     {
-      "lender": "Lender 3",
-      "lenderType": "Mortgage Broker",
+      "lender": "Bank of America",
+      "lenderType": "National Bank",
       "rate": "3.6%",
       "apr": "3.7%",
-      "term": "30 Year Fixed"
+      "term": "30 yr"
     }
   ]
 }

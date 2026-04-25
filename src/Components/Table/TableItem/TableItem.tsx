@@ -11,11 +11,12 @@ export default function TableItem({ lender, lenderType, rate, apr, term }) {
         sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
       >
         <TableCell component="th" scope="row">
-          {lender} - {lenderType}
+          <div className='lender-name'>{lender}</div>
+          <div className='lender-type'>{lenderType}</div>
         </TableCell>
-        <TableCell align="right">{rate}</TableCell>
-        <TableCell align="right">{apr}</TableCell>
-        <TableCell align="right">{term}</TableCell>
+        <TableCell align="right" className="rate-cell cell">{rate}</TableCell>
+        <TableCell align="right" className='cell'>{apr}</TableCell>
+        <TableCell align="right" className='cell'>{term}</TableCell>
       </TableRow>
     </TableBody>
   );

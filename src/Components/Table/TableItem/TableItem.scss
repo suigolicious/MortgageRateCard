@@ -1,0 +1,36 @@
+// Add green hover effect for rate cell
+.rate-cell {
+  transition: color 0.2s;
+}
+
+tr:hover .rate-cell {
+  color: #286D56;
+  font-weight: 600;
+}
+
+.lender-name {
+  font-weight: 600;
+  font-size: 12px;
+  transition: color 0.2s;
+}
+
+.lender-type {
+  font-size: 10px;
+}
+
+tr {
+  border-bottom: 1px solid #E9E8E5;
+  transition: background 0.2s;
+}
+
+tr:hover {
+  background: #E8F1FA;
+}
+
+tr:hover .lender-name {
+  color: #2D5488;
+}
+
+.cell {
+  font-weight: 600;
+}
