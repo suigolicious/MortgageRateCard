@@ -13,7 +13,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 ## Expanding the ESLint configuration
 
-linda was here
+nathaniel was here
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
