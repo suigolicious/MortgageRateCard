@@ -1,0 +1,44 @@
+.rate-card-container {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+
+  .rate-card {
+    width: 100%;
+    min-width: 200px;
+    max-width: 500px;
+    background: #FFFFFF;
+    border: 1px solid #EAE9E8;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+
+    .card-title {
+      text-align: left;
+      line-height: 110%;
+
+      .card-title-text {
+        font-weight: 600;
+        font-size: 14px;
+      }
+
+      .card-info-text {
+        font-size: 11px;
+      }
+    }
+
+    .card-type {
+      display: flex;
+      align-items: center;
+      border: 1px solid #DEECF9;
+      border-radius: 6px;
+      font-size: 10px;
+      font-weight: 600;
+      color: #2B547F;
+      padding: 0 6px;
+      height: 20px;
+      background-color: #E2F0FA;
+    }
+  }
+}
