@@ -1,3 +1,11 @@
 .rate-card{
-  border: 20px solid black;
+  display: flex;
+  justify-content: center;
+  .rate-card-outline{
+    border: 1px solid red;
+    height: 100px;
+    width: 800px;
+    border-radius: 16px;
+  }
+
 }
