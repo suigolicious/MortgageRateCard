@@ -1,11 +1,43 @@
-.rate-card{
+.rate-card {
   display: flex;
   justify-content: center;
-  .rate-card-outline{
+
+  .rate-card-outline {
     border: 1px solid red;
     height: 100px;
     width: 800px;
     border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+
+    .title-subtitle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      gap: 4px;
+
+      .title {
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+        
+      }
+
+    }
+    
+    .years {
+      border: 1px solid blue;
+      border-radius: 5px;
+      padding: 0rem .5rem;
+      background: rgb(177, 232, 254);
+      color: blue;
+      font-weight: 600;
+      font-size: 14px;
+    }
   }
+
 
 }
